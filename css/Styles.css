@@ -319,8 +319,11 @@ section
     .titulo img
     {
         width: 100%;
-        padding: 50px;
-        display: block;
+
+
+        padding-left: 260px;
+        padding-right: 260px;
+        display:block;
     }
 
     h2{
@@ -431,6 +434,20 @@ section
     { 
         width: 30px;
     }
+}
+
+@media screen and (max-width: 900px) {
+
+    .titulo img
+    {
+        width: 100%;
+
+
+        padding-left: 100px;
+        padding-right: 100px;
+        display:block;
+    }
+
 }
 
 @media screen and (max-width: 670px) {
