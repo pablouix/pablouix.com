@@ -587,3 +587,22 @@ section
         width: 25px;
     }
 }
+
+
+@media screen and (max-width: 470px) {
+
+    .fotosProyectoHijo
+    {
+        width: 125px;
+        height: 181px;
+  
+    }
+
+    .fotosProyectoHijo  img 
+    {
+        width: 125px;
+        height: 181px;
+    }
+
+
+}
