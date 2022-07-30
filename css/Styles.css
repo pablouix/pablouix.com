@@ -593,16 +593,55 @@ section
 
     .fotosProyectoHijo
     {
-        width: 125px;
-        height: 181px;
+        width: 125.74px;
+        height: 166px;
   
     }
 
     .fotosProyectoHijo  img 
     {
-        width: 125px;
-        height: 181px;
+        width: 125.74px;
+        height: 166px;
     }
+
+    .contacto div span
+    {
+        font-size: 12px;
+    }
+
+    .contacto div input
+    {
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .contacto div textarea
+    {
+        font-size: 12px;
+        border-radius: 5px;
+      
+    }
+
+    /*
+    .contacto
+    {
+        background-color: rgba(60, 60, 60); 
+    }
+
+    .contacto div label
+    {
+        color: #EEEEEE;
+    }
+
+ 
+
+    .contacto div h2
+    {
+        color: #EEEEEE;
+    }
+*/
+
+
 
 
 }
