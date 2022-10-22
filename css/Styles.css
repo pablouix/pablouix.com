@@ -214,7 +214,7 @@ section
 .carrousel a
 {
     text-decoration: none;
- 
+    color: #000000;
 }
 
 .carrousel::-webkit-scrollbar {
@@ -665,6 +665,25 @@ section
     .RedesSocialesInicio div img
     { 
         width: 25px;
+    }
+
+    .card 
+    {
+        scroll-snap-align: start;
+        border-radius: 30px;
+        min-height: 230px;
+        min-width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #EEEEEE;
+    }
+
+    .card img
+    {
+        width: 80px;
+        margin-bottom: 20px;
+        border-radius: 15px;
     }
 }
 
