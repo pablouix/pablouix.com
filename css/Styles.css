@@ -671,8 +671,8 @@ section
     {
         scroll-snap-align: start;
         border-radius: 30px;
-        min-height: 230px;
-        min-width: 400px;
+        min-height: 240px;
+        min-width: 190px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -684,6 +684,11 @@ section
         width: 80px;
         margin-bottom: 20px;
         border-radius: 15px;
+    }
+
+    .card-contect h1
+    {
+        font-size: 18px;
     }
 }
 
