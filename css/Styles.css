@@ -222,12 +222,12 @@ section
 }
 
 
-.card
+.card 
 {
     scroll-snap-align: start;
     border-radius: 30px;
-    min-height: 300px;
-    min-width: 400px;
+    min-height: 280px;
+    min-width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -236,9 +236,15 @@ section
 
 .card img
 {
-    margin-right: 30px;
+   
     width: 100px;
+    margin-bottom: 20px;
     border-radius: 20px;
+}
+
+.card-contect
+{
+    text-align: center;
 }
 
 
