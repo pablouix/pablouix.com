@@ -171,6 +171,7 @@ section
     box-shadow: 0px 0px 15px 1px rgba(0, 0, 10, 0.2);
 }
 
+
 /*section proyectos*/
 .fotosProyectos
 { 
@@ -189,6 +190,77 @@ section
     width: 351px;
     height: 465px;
 }
+
+/*proyectos 2*/
+.Proyecto-Section h2
+{
+    padding-bottom: 65px;
+
+}
+
+.carrousel
+{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+   
+}
+
+.carrousel a
+{
+    text-decoration: none;
+ 
+}
+
+.carrousel::-webkit-scrollbar {
+    display: none;
+}
+
+
+.card
+{
+    scroll-snap-align: start;
+    border-radius: 30px;
+    min-height: 300px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+
+.card img
+{
+    margin-right: 30px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+
+
+.card:nth-child(1) {
+    background:#ffffff;
+}
+
+.card:nth-child(2) {
+    background:#ffffff;
+}
+
+.card:nth-child(3) {
+    background:#ffffff;
+}
+
+.card:nth-child(4) {
+    background:#ffffff;
+}
+
+
+
 
 /*Contato*/
 .contacto
